@@ -1,0 +1,67 @@
+What does this course offer you? We're just getting started and we just built and edited our first Angular
+application. But of course we didn't fully understand what we did there.
+
+So that's why in the next lecture we're going to dive into the basics of Angular. 
+
+What are #components?
+What did we do there with this #two-way data binding and how does that all work.
+This section will answer it and we'll take a very detailed look at it. 
+We'll also explain how all these files you saw in your project are connected to each other.
+
+Then we're going to look at #components and data binding; 
+two important key features and we actually saw both already in our first application. 
+
+
+Angular apps are built up from components and data binding is simply how you output data in your DOM in the end and,
+ as you will also learn, react to user events.
+
+Angular has another key feature; directives. 
+ngModel, which we used with two-way data binding, actually is such a directive. 
+You will learn more about the built-in directives in this section and, also very
+important,
+build your own directives; nice little helpers (instructions) you can place in your templates, in your HTML code, 
+which will then do something at runtime depending on the commands you wrote in there. 
+
+
+Well, after having a look at this, we're going to learn more about
+services and dependency injection;
+a core feature of Angular which makes it really easy for you to have your different pieces in your app communicate with 
+each other, to centralize code and to manage the state of your application.
+
+Once we're finished with that it's time to have a look at routing because, thus far, we will only have been on one page.
+Well, we're always on one page since it's a single page application, but to the user it really looked like one page. 
+
+With routing, we introduce the management of different URLs so that, to the user, it looks like we're switching pages 
+even though technically, we will still remain on that single page.
+
+
+Then it's time to have a look at Observables; 
+something which will make more sense once you've been through the routing section.
+
+It is a concept allowing you to work with asynchronous code.
+ Angular embraces it, it's really powerful and this section explains how it works.
+
+Then we'll have a look at forms, because handling forms, handling user input is a key task of almost
+any application and this section takes a very close look at it. After we're done with forms
+we're going to have a look at pipes;
+another nice feature which makes it easy for you to transform the output (what you display on the template at runtime). 
+
+Well, we're nearing the end, but not before having a look at HTTP.
+What if you need to reach out to a web server?
+What if you need to store some data in a database?
+Angular can't connect to a database directly, but it can connect to a server which is able to and the Http Section
+shows just that.
+
+Thereafter, we'll have a look at authentication. What does authentication mean in an Angular application?
+How does it work? While we're at it, we'll implement it in an application. 
+Then we're going to have a look at some optimizations we can put into place and how we can manage different modules in 
+our application; something you will really understand once we are at this point. 
+
+Then, we're going to deploy an application,
+learn how we can get our Angular application from our local machine to a place in the Internet where
+we can view it.
+
+And if that's not enough for you, we're also going to have a look at animations and testing Angular applications.
+
+Besides that, throughout the whole course, we're going to build a real project putting all these things you'll
+learn in the individual sections into practice and, therefore, see how they are used in a real project.
