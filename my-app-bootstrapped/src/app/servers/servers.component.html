@@ -1,12 +1,31 @@
+<label for="">Server Name</label>
+
+<!-- <input type="text" name="" class="form-control" id="" (input)="onUpdateServerName($event)"> -->
+
+<input type="text" 
+class="form-control" id="" 
+[(ngModel)]="serverName">
+
+<p>{{ serverName }}</p><br>
+
 <button 
 (click)="onCreateServer( )" 
 class="btn btn-primary" 
-[disabled]="!allowNewServer">Add Server</button>  
+[disabled]="!allowNewServer">Add Server</button><br><br>
 
-<br><br>
+<p>{{ serverName }}</p><br><br>
 
 <!-- <p [innerText]="allowNewServer"></p> -->
 
 <p>{{ serverCreationStatus }}</p>
 <app-server></app-server>
 <app-server></app-server>
+
+
+<!-- NOTE: -->
+<!-- FormsModule is Required for Two-Way-Binding! -->
+<!-- For Two Way Binding to work , we need to enable ngModel directive. This is done by adding the 
+FormsModule to the imports[] array in the AppModule -->
+
+<!-- You then also need to import from @angular/forms in the app.module.ts file -->
+<!-- import { FormsModule }  from '@angular/forms'  -->
